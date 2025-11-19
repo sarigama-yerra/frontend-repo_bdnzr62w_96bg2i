@@ -5,17 +5,27 @@ import Technology from './components/Technology'
 import Ecosystem from './components/Ecosystem'
 import Roadmap from './components/Roadmap'
 import CTA from './components/CTA'
+import ScrollProgress from './components/ScrollProgress'
+import BackgroundFX from './components/BackgroundFX'
+import Marquee from './components/Marquee'
+import CinematicSection from './components/CinematicSection'
+import FAQ from './components/FAQ'
 
 function App() {
   return (
     <div className="min-h-screen bg-slate-950">
+      <ScrollProgress />
+      <BackgroundFX />
       <Navbar />
       <Hero />
+      <Marquee />
+      <CinematicSection />
       <Overview />
       <Technology />
       <Ecosystem />
       <Roadmap />
       <CTA />
+      <FAQ />
 
       {/* Footer */}
       <footer id="faq" className="border-t border-white/10 bg-slate-950">
